@@ -1,0 +1,22 @@
+project:
+  name: "dop2"
+  description: "To jest przykładowy projekt stworzony do celów demonstracyjnych."
+  maintainers:
+    - name: "tomaidrop"
+      email: "mobilelegendsbtc@gmail.com"
+    - name: "tomaidrop"
+      email: "anna.nowak@example.com"
+  repository:
+    type: "git"
+    url: "https://github.com/tomekether/dop2"
+  treasury:
+    governance:
+      quorum_rules:
+        min_approvers: 2
+    funding_rules:
+      voting_duration: 7 days
+      quorum: 50%
+    security:
+      vulnerability_reporting:
+        enabled: true
+        responsible_disclosure: true
